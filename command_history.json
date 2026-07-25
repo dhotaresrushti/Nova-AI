@@ -1,0 +1,269 @@
+[
+  {
+    "timestamp": "2026-07-09T18:37:49.136358+00:00",
+    "raw_text": "notepad",
+    "intent": "open_application",
+    "parameters": {
+      "app_name": "notepad"
+    },
+    "success": true,
+    "message": "Opening notepad."
+  },
+  {
+    "timestamp": "2026-07-09T18:38:15.519987+00:00",
+    "raw_text": "now open google",
+    "intent": "open_website",
+    "parameters": {
+      "url": "https://www.google.com"
+    },
+    "success": true,
+    "message": "Opening https://www.google.com."
+  },
+  {
+    "timestamp": "2026-07-09T18:38:25.095712+00:00",
+    "raw_text": "stop",
+    "intent": "system_control",
+    "parameters": {
+      "action": "stop"
+    },
+    "success": false,
+    "message": "System action 'stop' is not recognized."
+  },
+  {
+    "timestamp": "2026-07-09T18:38:45.174172+00:00",
+    "raw_text": "now open my gmail",
+    "intent": "open_website",
+    "parameters": {
+      "url": "https://mail.google.com"
+    },
+    "success": true,
+    "message": "Opening https://mail.google.com."
+  },
+  {
+    "timestamp": "2026-07-09T18:39:04.139447+00:00",
+    "raw_text": "can you add new folder",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "new_folder"
+    },
+    "success": true,
+    "message": "Created folder new_folder."
+  },
+  {
+    "timestamp": "2026-07-09T18:39:23.751620+00:00",
+    "raw_text": "can you save a new folder in desktop named olama",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "olama"
+    },
+    "success": true,
+    "message": "Created folder olama."
+  },
+  {
+    "timestamp": "2026-07-10T10:46:43.803877+00:00",
+    "raw_text": "open notepad",
+    "intent": "open_application",
+    "parameters": {
+      "app_name": "notepad"
+    },
+    "success": true,
+    "message": "Opening notepad."
+  },
+  {
+    "timestamp": "2026-07-10T10:46:53.205187+00:00",
+    "raw_text": "open google",
+    "intent": "open_website",
+    "parameters": {
+      "url": "https://google.com"
+    },
+    "success": true,
+    "message": "Opening https://google.com."
+  },
+  {
+    "timestamp": "2026-07-10T10:47:04.747521+00:00",
+    "raw_text": "open my desktop folder and add one file name",
+    "intent": "open_application",
+    "parameters": {
+      "app_name": "explorer.exe"
+    },
+    "success": false,
+    "message": "'explorer.exe' is not in my list of known applications."
+  },
+  {
+    "timestamp": "2026-07-10T12:05:30.108999+00:00",
+    "raw_text": "create folders",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "",
+      "location": "workspace"
+    },
+    "success": false,
+    "message": "Sorry, I ran into an error: 'CommandExecutor' object has no attribute '_get_location'"
+  },
+  {
+    "timestamp": "2026-07-10T12:05:49.207795+00:00",
+    "raw_text": "create folder srishti on desktop",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "srishti",
+      "location": "desktop"
+    },
+    "success": false,
+    "message": "Sorry, I ran into an error: 'CommandExecutor' object has no attribute '_get_location'"
+  },
+  {
+    "timestamp": "2026-07-10T12:09:17.541593+00:00",
+    "raw_text": "create folders srishti on desktop",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "srishti",
+      "location": "desktop"
+    },
+    "success": true,
+    "message": "Folder 'srishti' created in C:\\Users\\Srushti\\Desktop."
+  },
+  {
+    "timestamp": "2026-07-10T12:10:56.950614+00:00",
+    "raw_text": "open folders",
+    "intent": "open_folder",
+    "parameters": {
+      "folder_name": ""
+    },
+    "success": false,
+    "message": "Folder '' was not found."
+  },
+  {
+    "timestamp": "2026-07-10T12:11:13.879683+00:00",
+    "raw_text": "open folder",
+    "intent": "open_folder",
+    "parameters": {
+      "folder_name": ""
+    },
+    "success": false,
+    "message": "Folder '' was not found."
+  },
+  {
+    "timestamp": "2026-07-10T12:11:22.940940+00:00",
+    "raw_text": "open folders",
+    "intent": "open_folder",
+    "parameters": {
+      "folder_name": ""
+    },
+    "success": false,
+    "message": "Folder '' was not found."
+  },
+  {
+    "timestamp": "2026-07-10T12:11:32.145134+00:00",
+    "raw_text": "open folder srishti",
+    "intent": "open_folder",
+    "parameters": {
+      "folder_name": "srishti"
+    },
+    "success": false,
+    "message": "Folder 'srishti' was not found."
+  },
+  {
+    "timestamp": "2026-07-10T12:16:21.706640+00:00",
+    "raw_text": "create",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "",
+      "location": ""
+    },
+    "success": true,
+    "message": "Folder '' created in C:\\Users\\Srushti\\VoiceAssistantWorkspace."
+  },
+  {
+    "timestamp": "2026-07-10T12:16:32.552283+00:00",
+    "raw_text": "create folders",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "",
+      "location": "workspace"
+    },
+    "success": true,
+    "message": "Folder '' created in C:\\Users\\Srushti\\VoiceAssistantWorkspace."
+  },
+  {
+    "timestamp": "2026-07-10T12:16:44.840435+00:00",
+    "raw_text": "create folders",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "",
+      "location": "workspace"
+    },
+    "success": true,
+    "message": "Folder '' created in C:\\Users\\Srushti\\VoiceAssistantWorkspace."
+  },
+  {
+    "timestamp": "2026-07-10T12:17:07.161367+00:00",
+    "raw_text": "create folder abc",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "abc",
+      "location": "workspace"
+    },
+    "success": true,
+    "message": "Folder 'abc' created in C:\\Users\\Srushti\\VoiceAssistantWorkspace."
+  },
+  {
+    "timestamp": "2026-07-10T12:17:18.079811+00:00",
+    "raw_text": "bc",
+    "intent": "",
+    "parameters": {},
+    "success": false,
+    "message": "Sorry, I didn't understand that command."
+  },
+  {
+    "timestamp": "2026-07-10T12:17:25.343670+00:00",
+    "raw_text": "open folder abc",
+    "intent": "open_folder",
+    "parameters": {
+      "folder_name": "abc"
+    },
+    "success": true,
+    "message": "Opening abc."
+  },
+  {
+    "timestamp": "2026-07-11T03:59:30.193082+00:00",
+    "raw_text": "create file abc",
+    "intent": "create_file",
+    "parameters": {
+      "file_name": "abc",
+      "content": "",
+      "location": "workspace"
+    },
+    "success": false,
+    "message": "Sorry, I ran into an error: [Errno 13] Permission denied: 'C:\\\\Users\\\\Srushti\\\\VoiceAssistantWorkspace\\\\abc'"
+  },
+  {
+    "timestamp": "2026-07-11T03:59:45.114694+00:00",
+    "raw_text": "abc",
+    "intent": "",
+    "parameters": {},
+    "success": false,
+    "message": "Sorry, I didn't understand that command."
+  },
+  {
+    "timestamp": "2026-07-11T03:59:51.896997+00:00",
+    "raw_text": "create folder abc",
+    "intent": "create_folder",
+    "parameters": {
+      "folder_name": "abc",
+      "location": "workspace"
+    },
+    "success": true,
+    "message": "Folder 'abc' created in C:\\Users\\Srushti\\VoiceAssistantWorkspace."
+  },
+  {
+    "timestamp": "2026-07-11T04:00:03.000024+00:00",
+    "raw_text": "delete folder abc",
+    "intent": "delete_folder",
+    "parameters": {
+      "folder_name": "abc",
+      "location": "workspace"
+    },
+    "success": false,
+    "message": "Sorry, I didn't understand that command."
+  }
+]
