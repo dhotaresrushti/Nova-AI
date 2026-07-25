@@ -1,0 +1,10 @@
+SpeechRecognition
+pyttsx3
+pyaudio
+python-dotenv
+langchain
+langchain-core
+langchain-ollama
+pyautogui
+send2trash
+psutil
